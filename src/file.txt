@@ -1,0 +1,1 @@
+Data engineering is the process of transforming data from a database into useful insights to solve business problems.

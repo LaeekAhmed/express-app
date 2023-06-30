@@ -1,1 +1,1 @@
-export const hello = "hello world!"
+export const msg = "hi from test.ts"

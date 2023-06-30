@@ -1,4 +1,11 @@
 import fs from 'fs';
-import { hello } from './test.js';
+import { msg } from './test.js';
 
-console.log(hello);
+async function main() {
+    const file_data = await fs.promises.readFile('file.txt')
+    console.log(file_data);
+    console.log('Hello World!');
+}
+
+main();
+console.log(msg);
