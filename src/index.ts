@@ -7,7 +7,7 @@ const app : Application = express();
 const add = (a : number, b : number) : number => a + b;
 
 app.get('/', (req : Request, res : Response) => {
-    console.log(add(5, 5));    
+    console.log(add(5, 6));    
     res.send('Hello World!');
 });
 
