@@ -1,1 +1,1 @@
-export const msg = "hi from test.ts"
+export const msg: string = "hi from test.ts"
